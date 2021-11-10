@@ -1,10 +1,11 @@
 ---
-#title: "Home Activity"
-##author: "15F-8069"
-
-  output:
+title: "Home Activity"
+author: "15F-8069"
+output:
   pdf_document: default
-  html_document: default
+  html_document:
+    df_print: paged
+    always_allow_html: yes
 ---
 
 #Load Dataset
